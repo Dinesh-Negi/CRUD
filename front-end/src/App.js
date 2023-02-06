@@ -7,7 +7,8 @@ export default function App() {
   const navigate = useNavigate();
   return (
     <div style={{ width: "90%", margin: "auto auto", textAlign: "center" }}>
-      <h1>E-Dashboard</h1>
+      <h1>This is a TODO List app</h1>
+      //This is a Git add.
       <Button
         variant="outline-dark"
         style={{ width: "100%" }}
