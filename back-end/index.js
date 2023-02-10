@@ -12,7 +12,7 @@ mongoose
   .connect("mongodb://0.0.0.0:27017/myDB")
   .catch((err) => console.log(err));
 
-//DB SCHEMA AND MODEL
+//This is Data Base SCHEMA AND MODEL
 const postSchema = mongoose.Schema({
   title: String,
   description: String,
