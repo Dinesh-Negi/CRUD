@@ -12,7 +12,7 @@ mongoose
   .connect("mongodb://0.0.0.0:27017/myDB")
   .catch((err) => console.log(err));
 
-//This is Data Base SCHEMA AND MODEL
+// Data Base SCHEMA AND MODEL
 const postSchema = mongoose.Schema({
   title: String,
   description: String,
@@ -58,5 +58,5 @@ app.put("/update/:id", (req, res) => {
 });
 
 app.listen(3001, function () {
-  console.log("Server is running");
+  console.log("Server is running under process...");
 });
