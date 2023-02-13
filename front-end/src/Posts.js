@@ -59,7 +59,7 @@ function Posts() {
     handleClose();
     window.location.reload();
   };
-
+//Return JSX element
   return (
     <div style={{ width: "90%", textAlign: "center", margin: "auto auto" }}>
       <h1>Post page</h1>
